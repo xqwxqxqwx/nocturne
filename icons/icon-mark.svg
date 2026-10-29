@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="light" cx="50%" cy="42%" r="60%">
+      <stop offset="0" stop-color="#26262a"/>
+      <stop offset="1" stop-color="#0b0b0c"/>
+    </radialGradient>
+  </defs>
+  
+  
+    <g transform="translate(0 0) scale(1)">
+      <circle cx="50" cy="50" r="31" fill="none" stroke="#e8e6e3" stroke-width="1.6" opacity=".85"/>
+      <circle cx="50" cy="50" r="27.5" fill="none" stroke="#e8e6e3" stroke-width=".6" opacity=".4"/>
+      <path d="M80.87 47.21L89.71 54.79L80.87 52.79ZM80.54 55.30L75.17 54.11L79.10 60.68ZM78.13 63.02L82.00 74.00L75.35 67.85ZM73.80 69.86L69.74 66.14L69.86 73.80ZM67.85 75.35L65.71 86.79L63.02 78.13ZM60.68 79.10L59.03 73.85L55.30 80.54ZM52.79 80.87L45.21 89.71L47.21 80.87ZM44.70 80.54L45.89 75.17L39.32 79.10ZM36.98 78.13L26.00 82.00L32.15 75.35ZM30.14 73.80L33.86 69.74L26.20 69.86ZM24.65 67.85L13.21 65.71L21.87 63.02ZM20.90 60.68L26.15 59.03L19.46 55.30ZM19.13 52.79L10.29 45.21L19.13 47.21ZM19.46 44.70L24.83 45.89L20.90 39.32ZM21.87 36.98L18.00 26.00L24.65 32.15ZM26.20 30.14L30.26 33.86L30.14 26.20ZM32.15 24.65L34.29 13.21L36.98 21.87ZM39.32 20.90L40.97 26.15L44.70 19.46ZM47.21 19.13L54.79 10.29L52.79 19.13ZM55.30 19.46L54.11 24.83L60.68 20.90ZM63.02 21.87L74.00 18.00L67.85 24.65ZM69.86 26.20L66.14 30.26L73.80 30.14ZM75.35 32.15L86.79 34.29L78.13 36.98ZM79.10 39.32L73.85 40.97L80.54 44.70Z" fill="#e8e6e3" opacity=".85"/>
+      <path d="M50 18 53.2 29v10h9.8L72 43l-9 4h-9.8v22L50 82l-3.2-13V47H37l-9-4 9-4h9.8V29Z" fill="#e8e6e3" filter="url(#glow)"/>
+    </g>
+</svg>
